@@ -11,7 +11,7 @@ Vagrant.configure(2) do |config|
   config.vm.network :private_network, ip: "192.168.57.100"
   
   config.vm.provider "virtualbox" do |vb|
-    vb.name = "API-CAREVIRTUE-VM"
+    vb.name = "API-ESTEBAN-TEST"
     vb.memory = 2048
   end
 
